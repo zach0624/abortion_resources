@@ -9,7 +9,7 @@ task default: :deploy
 # Standard set of tasks, which you can customize if you wish:
 #
 desc "Build the Bridgetown site for deployment"
-task :deploy => [:clean, "frontend:build"] do
+task :deploy => [:clean] do
   Bridgetown::Commands::Build.start
 end
 
@@ -27,13 +27,13 @@ end
 namespace :frontend do
   desc "Build the frontend with esbuild for deployment"
   task :build do
-    sh "yarn run esbuild"
+    # sh "yarn run esbuild"
   end
 
   desc "Watch the frontend with esbuild during development"
   task :dev do
-    sh "yarn run esbuild-dev"
-  rescue Interrupt
+    # sh "yarn run esbuild-dev"
+  # rescue Interrupt
   end
 end
 
