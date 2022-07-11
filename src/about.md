@@ -17,10 +17,9 @@ used to track you across the internet. The source code for this site is availabl
 its security, but we can not guarantee our hosting platform and DNS does not store your computer's IP. If you found this website
 via Google or other search engine they may track what searches you perform or what results you visit.
 
-You can view the source of the site here:
-
 It is compiled using Bridge Town. You can find the source code for Bridgetown at GitHub:
 [bridgetownrb](https://github.com/bridgetownrb) /
 [bridgetown](https://github.com/bridgetownrb/bridgetown)
 
 You can view the source of the code used to generate this site here:
+[https://github.com/zach0624/abortion_resources](https://github.com/zach0624/abortion_resources)
