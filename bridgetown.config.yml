@@ -22,6 +22,8 @@ template_engine: liquid
 collections:
   non_profits:
     output: true
+  apps:
+    output: true
 # Other options you might want to investigate:
 #
 # base_path: "/" # the subpath of your site, e.g. /blog. If you set this option,
